@@ -310,7 +310,7 @@ int toss (void) {
 void gameplay (char board[3][3], int toss) {
 
 	/* Win condition should be 1 or moves should not be left to terminate the loop */
-	while (won != 1 || move_verification(board) == true) {
+	while (won != 1 && move_verification(board) == true) {
 
 		/* Checks for user's chance to play */
 		if (toss == 0) {
@@ -337,7 +337,7 @@ void gameplay (char board[3][3], int toss) {
 	}
 
 	/* checks whether computer played the last move */
-	if (toss==0 && won == 1)
+	if (toss==0)
 		printf("It's a draw !\n");
 }
 
