@@ -1,6 +1,6 @@
 /*
  *<Tic_Tac_Toe - A basic tic tac toe game using minimax algorithm>
- *Copyright (C) <2018>  <parikh_parth>
+ *Copyright (C) 2018  Parth Parikh
  *
  *This program is free software: you can redistribute it and/or modify
  *it under the terms of the GNU General Public License as published by
