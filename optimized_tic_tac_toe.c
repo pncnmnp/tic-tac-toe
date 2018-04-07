@@ -259,7 +259,7 @@ void user_plays (char board[3][3]) {
 	play.y = -1;
 
 	/* Accept the moves from user */
-	printf("\nEnter the x and y co-ordinate of your move: ");
+	printf("\nEnter the x and y co-ordinate of your move rows-(0-2) col-(0-2) : ");
 	scanf("%d%d", &play.x, &play.y);
 
 	/* Check for validity of the move */
